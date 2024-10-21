@@ -7,7 +7,7 @@ import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 
-contract MyToken is Initializable, ERC721Upgradeable, OwnableUpgradeable, UUPSUpgradeable {
+contract MyErc721 is Initializable, ERC721Upgradeable, OwnableUpgradeable, UUPSUpgradeable {
     uint256 private _nextTokenId;
 
     /// @custom:oz-upgrades-unsafe-allow constructor
